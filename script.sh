@@ -8,12 +8,12 @@
 ## Assigning the line from your wordlist file as a payload
 ## with each iteration of the loop, it will move on to the next line
 ## and will assign that line as the value of 'payload' variable instead
-  payload=$line=line$((line+1)
+  PAYLOAD=$line=line$((line+1)
 
 ## Asks you to input the vulnerable URL including the path to the param
 ## that you are wanting to test
   echo "Please input the path to the parameter on the URL you are testing:\n"
-  read domain
+  read DOMAIN
 
 ## Confirming that you inputted the correct target domain
 ## letting you know that it is about to test for the first payload
