@@ -7,5 +7,5 @@ I will update this into a fully-functional and powerful working script at a late
 
 ## Usage:
 - you would need to ensure that your wordlist is saved in a dir that your user account has CRUD operations on (for example /tmp or any dir if you're a sudoer)
-- Before running the script, you'd run the following terminal command: ```cd /path/to/your/wordlist/dir ; mv my_wordlist.txt ../../../path/to/your/bash/script/my_wordlist.txt ; chmod +x script.sh ; ./script.sh```
+- Before running the script, you'd run the following bash one-liner command: ```cd /path/to/your/wordlist/dir ; mv my_wordlist.txt ../../../path/to/your/bash/script/my_wordlist.txt ; chmod +x script.sh ; ./script.sh```
 
