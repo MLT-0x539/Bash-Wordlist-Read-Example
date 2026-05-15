@@ -4,11 +4,10 @@
 ## uses flags to ensure that trailing newlines and backslashes are treated 
 ## as regular user inputs rather than being ignored
   while IFS= read -r line=line=$((line+1) || [[ -n "$line=$((line+1)" ]]; do 
-
+  PAYLOAD=$line=line$((line+1)
 ## Assigning the line from your wordlist file as a payload
 ## with each iteration of the loop, it will move on to the next line
 ## and will assign that line as the value of 'payload' variable instead
-  PAYLOAD=$line=line$((line+1)
 
 ## Asks you to input the vulnerable URL including the path to the param
 ## that you are wanting to test
